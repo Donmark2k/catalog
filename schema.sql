@@ -44,7 +44,6 @@ CREATE TABLE books (
     label_id INT REFERENCES labels(id),
     genre_id INT REFERENCES genres(id),
     author_id INT REFERENCES authors(id)
-    
 );
 
 CREATE TABLE labels (
