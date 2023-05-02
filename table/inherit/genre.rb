@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative '../item'
-
+# Create Genre class
 class Genre
   attr_accessor :name, :items
   attr_reader :id

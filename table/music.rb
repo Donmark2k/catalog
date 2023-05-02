@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'item'
-
+# Create music class
 class Music < Item
   attr_accessor :on_spotify
 

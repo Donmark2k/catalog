@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './table/inherit/author'
 require './table/book'
 require './table/game'

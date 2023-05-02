@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Create Label class
 class Label
   attr_accessor :items
   attr_reader :id, :title, :color

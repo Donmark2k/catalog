@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'date'
-
+# Create item class
 class Item
   attr_accessor :publish_date, :genre, :author, :label
   attr_reader :id, :archived

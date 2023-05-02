@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'item'
-
+# Create Game class
 class Game < Item
   attr_accessor :multiplayer, :last_played_at
 
