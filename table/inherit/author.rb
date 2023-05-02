@@ -5,7 +5,6 @@ class Author
     attr_reader :items
     attr_accessor :id
   
-    public
   
     def initialize(fname, lname)
       @id = rand(0..100)
