@@ -1,1 +1,8 @@
-[{"game_id":36,"multiplayer":"yes","last_played_at":"28/04/2023","class":"Game"}]
+[
+  {
+    "game_id": 36,
+    "multiplayer": "yes",
+    "last_played_at": "28/04/2023",
+    "class": "Game"
+  }
+]

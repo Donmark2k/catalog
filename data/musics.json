@@ -1,1 +1,14 @@
-[{"album_id":103,"on_spotify":"true","publish_date":"2023-05-02","class":"Music"}]
+[
+  {
+    "album_id": 103,
+    "on_spotify": "true",
+    "publish_date": "2023-05-02",
+    "class": "Music"
+  },
+  {
+    "album_id": 488,
+    "on_spotify": "false",
+    "publish_date": "2023-05-02",
+    "class": "Music"
+  }
+]

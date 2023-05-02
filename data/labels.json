@@ -1,1 +1,9 @@
-[{"id":854,"title":"Advanced Knowledge","color":"purple","book":606,"class":"Label"}]
+[
+  {
+    "id": 854,
+    "title": "Advanced Knowledge",
+    "color": "purple",
+    "book": 606,
+    "class": "Label"
+  }
+]

@@ -1,1 +1,9 @@
-[{"book_id":606,"publisher":"Kinsway","cover_state":"good","publish_date":"02/05/2023","class":"Book"}]
+[
+  {
+    "book_id": 606,
+    "publisher": "Kinsway",
+    "cover_state": "good",
+    "publish_date": "02/05/2023",
+    "class": "Book"
+  }
+]

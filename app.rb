@@ -224,12 +224,12 @@ class App # rubocop:disable Metrics/ClassLength
 
   # exit function
   def exit_app
-    File.write('./data/authors.json', JSON.generate(@authors)) if @authors.size.positive?
-    File.write('./data/books.json', JSON.generate(@books)) if @books.size.positive?
-    File.write('./data/labels.json', JSON.generate(@labels)) if @labels.size.positive?
-    File.write('./data/games.json', JSON.generate(@games)) if @games.size.positive?
-    File.write('./data/musics.json', JSON.generate(@musics)) if @musics.size.positive?
-    File.write('./data/genres.json', JSON.generate(@genres)) if @genres.size.positive?
+    File.write('./data/authors.json', JSON.pretty_generate(@authors)) if @authors.size.positive?
+    File.write('./data/books.json', JSON.pretty_generate(@books)) if @books.size.positive?
+    File.write('./data/labels.json', JSON.pretty_generate(@labels)) if @labels.size.positive?
+    File.write('./data/games.json', JSON.pretty_generate(@games)) if @games.size.positive?
+    File.write('./data/musics.json', JSON.pretty_generate(@musics)) if @musics.size.positive?
+    File.write('./data/genres.json', JSON.pretty_generate(@genres)) if @genres.size.positive?
     puts 'Thank you for using this app!'
     exit
   end
