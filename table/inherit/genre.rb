@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative '../item'
 
 class Genre
@@ -15,4 +17,3 @@ class Genre
     @items << item unless @items.include? item
   end
 end
-

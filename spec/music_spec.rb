@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative '../table/music'
 require_relative '../table/item'
 

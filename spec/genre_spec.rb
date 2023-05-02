@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative '../table/inherit/genre'
 
 describe('Genre') do
@@ -6,4 +8,3 @@ describe('Genre') do
     expect(genre.name).to(eq('genre'))
   end
 end
-
