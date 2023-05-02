@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Rock",
+    "album": 103,
+    "class": "Genre"
+  },
+  {
+    "name": "pop",
+    "album": 488,
+    "class": "Genre"
+  }
+]
