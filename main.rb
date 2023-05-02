@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require './app'
 
 # Ask the user for the choice

@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class Loader
   def load_authors(authors)
     if File.exist?('./data/authors.json')
